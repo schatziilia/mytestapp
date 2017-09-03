@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="[Search Fragment]"
+    android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/title_to_search"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Enter TV title..."/>
+    <Button
+        android:id="@+id/buttonToTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickTitle"
+        android:background="#7986cb"
+        android:textColor="#ffffff"
+        android:text="Search"/>
+    <EditText
+        android:id="@+id/episode_to_search"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Enter Episode..."/>
+    <Button
+        android:id="@+id/buttonToEpisode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:background="#7986cb"
+        android:textColor="#ffffff"
+        android:text="Search"/>
+    <EditText
+        android:id="@+id/people_to_search"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Enter Person..."/>
+    <Button
+        android:id="@+id/buttonToPerson"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:background="#7986cb"
+        android:textColor="#ffffff"
+        android:text="Search"/>
+    <EditText
+        android:id="@+id/schedule_to_search"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Enter country, date..."/>
+    <Button
+        android:id="@+id/buttonToSchedule"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:background="#7986cb"
+        android:textColor="#ffffff"
+        android:text="Search"/>
+</LinearLayout>
